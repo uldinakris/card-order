@@ -16,4 +16,4 @@ before_build:
 
 build_script:
   - ./gradlew test --info
-  - gradlew test -Dselenide.headless=true
+  - ./gradlew test -Dselenide.headless=true
