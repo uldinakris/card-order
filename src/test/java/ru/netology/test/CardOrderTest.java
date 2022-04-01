@@ -10,12 +10,6 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CardOrderTest {
-
-    @BeforeAll
-    public static void setupAll() {
-        System.setProperty("selenide.headless", "true");
-    }
-
     @Test
     public void shouldSendForm() {
         Configuration.holdBrowserOpen = true;
